@@ -1,59 +1,98 @@
-🍰 Dessert Clicker
-    Game clicker Android yang fun dan sederhana! Klik dessert untuk mendapatkan uang dan unlock berbagai jenis dessert baru. Dibuat dengan Jetpack Compose dan Material           Design. Dessert Clicker adalah game idle clicker dimana kamu bisa mengumpulkan uang dengan mengklik dessert. Semakin banyak klik, semakin banyak uang yang didapat, dan       semakin banyak dessert baru yang bisa dibuka. Aplikasi ini dibuat sebagai project pembelajaran untuk memahami Jetpack Compose dan State Management di Android.
+# 🍰 Dessert Clicker
 
-✨ Fitur
-    1. Gameplay Interaktif – Ketuk dessert untuk menambah pendapatan.
-    2. Pilihan Dessert Beragam – Tersedia 13 jenis dessert yang bisa kamu buka seiring progres permainan.
-    3. Pelacakan Pendapatan – Lihat total penghasilan dan jumlah dessert yang sudah terjual.
-    4. State Management – Menggunakan ViewModel agar data tetap aman saat layar diputar atau aplikasi berubah state.
-    5. Desain Material 3 – Tampilan modern dengan sentuhan Material You.
-    6. Fitur Share – Bagikan progres atau pencapaianmu ke teman-teman.
-    7. Activity Lifecycle – Dilengkapi logging untuk membantu memahami alur lifecycle di Android.
+Game clicker Android yang fun dan sederhana!  
+Klik dessert untuk mendapatkan uang dan membuka berbagai jenis dessert baru.  
+Dibuat dengan **Jetpack Compose** dan **Material Design**.
 
-🛠️ Tech Stack
-    1. Bahasa Pemrograman: Kotlin
-    2. UI Framework: Jetpack Compose
-    3. Arsitektur: MVVM (Model–View–ViewModel)
-    4. State Management: StateFlow dan Compose State
-    5. Material Design: Komponen Material 3
-    6. Build System: Gradle dengan Kotlin DSL
+Dessert Clicker adalah game idle clicker di mana kamu bisa mengumpulkan uang dengan mengetuk dessert.  
+Semakin banyak klik, semakin banyak uang yang didapat, dan semakin banyak dessert baru yang bisa dibuka.
 
-📦 Struktur Project
-    pnm.tigade.dessert
-    1. data/
-        Datasource.kt          # Data sumber dessert
-        DessertUiState.kt      # State UI aplikasi
-    2. ui/
-        DessertViewModel.kt    # ViewModel untuk state management
-        theme/                 # Tema aplikasi (warna, typography)
-        MainActivity.kt        # Entry point aplikasi
+Aplikasi ini dibuat sebagai project pembelajaran untuk memahami **Jetpack Compose** dan **State Management** di Android.
 
-🎮 Cara Main
-    1. Buka aplikasi Dessert Clicker
-    2. Klik gambar dessert yang muncul di tengah layar
-    3. Setiap klik akan menambah revenue sesuai harga dessert
-    4. Dessert baru akan otomatis unlock setelah mencapai jumlah penjualan tertentu
-    5. Lihat total revenue dan desserts sold di bagian bawah
-    6. Gunakan tombol share di top bar untuk bagikan progress
+---
 
-💡 Yang Dipelajari
-    Project ini mendemonstrasikan beberapa konsep penting dalam Android Development:
-    1. Jetpack Compose untuk membuat UI modern
-    2. State management dengan ViewModel dan StateFlow
-    3. Implementasi MVVM architecture
-    4. Material Design 3 theming
-    5. Activity lifecycle di Android
-    6. Intent sharing untuk berbagi konten
-    7. Penggunaan data class dan Kotlin best practices
+## ✨ Fitur
 
-👨‍💻 Author
-    Anissa Puji Ryandhani
-    GitHub: @anissa567
+1. **Gameplay Interaktif** – Ketuk dessert untuk menambah pendapatan.  
+2. **Pilihan Dessert Beragam** – Tersedia 13 jenis dessert yang bisa kamu buka seiring progres permainan.  
+3. **Pelacakan Pendapatan** – Lihat total penghasilan dan jumlah dessert yang sudah terjual.  
+4. **State Management** – Menggunakan ViewModel agar data tetap aman saat layar diputar atau aplikasi berubah state.  
+5. **Desain Material 3** – Tampilan modern dengan sentuhan Material You.  
+6. **Fitur Share** – Bagikan progres atau pencapaianmu ke teman-teman.  
+7. **Activity Lifecycle** – Dilengkapi logging untuk membantu memahami alur lifecycle Android.
 
-⭐ Acknowledgments
-1. Dibuat sebagai bagian dari pembelajaran Android Basics with Compose
-2. Terinspirasi dari Google Codelabs
-3. Material Design guidelines dari Google
+---
 
-Saya berharap isi dalam repository ini dapat menjadi referensi yang bermanfaat bagi siapa pun yang membutuhkannya.
+## 🛠️ Tech Stack
 
+- **Bahasa Pemrograman:** Kotlin  
+- **UI Framework:** Jetpack Compose  
+- **Arsitektur:** MVVM (Model–View–ViewModel)  
+- **State Management:** StateFlow & Compose State  
+- **Material Design:** Komponen Material 3  
+- **Build System:** Gradle (Kotlin DSL)
+
+---
+
+## 📦 Struktur Project
+
+pnm.tigade.dessert/
+│
+├── data/
+│ ├── Datasource.kt # Data sumber dessert
+│ └── DessertUiState.kt # State UI aplikasi
+│
+├── ui/
+│ ├── DessertViewModel.kt # ViewModel untuk state management
+│ └── theme/ # Tema aplikasi (warna, typography)
+│
+└── MainActivity.kt # Entry point aplikasi
+
+
+---
+
+## 🎮 Cara Main
+
+1. Buka aplikasi Dessert Clicker.  
+2. Klik gambar dessert yang muncul di tengah layar.  
+3. Setiap klik akan menambah revenue sesuai harga dessert.  
+4. Dessert baru akan unlock otomatis setelah mencapai jumlah penjualan tertentu.  
+5. Lihat total revenue dan dessert sold di bagian bawah.  
+6. Gunakan tombol share di top bar untuk membagikan progress.
+
+---
+
+## 💡 Yang Dipelajari
+
+Project ini mendemonstrasikan konsep penting:
+
+- Jetpack Compose untuk membuat UI modern  
+- State management dengan ViewModel dan StateFlow  
+- Implementasi MVVM architecture  
+- Material Design 3 theming  
+- Activity lifecycle di Android  
+- Intent sharing untuk berbagi konten  
+- Penggunaan data class dan Kotlin best practices  
+
+---
+
+## 👨‍💻 Author
+
+**Anissa Puji Ryandhani**  
+GitHub: [@anissa567](https://github.com/anissa567)
+
+---
+
+## ⭐ Acknowledgments
+
+- Dibuat sebagai bagian dari pembelajaran Android Basics with Compose  
+- Terinspirasi dari Google Codelabs  
+- Material Design Guidelines dari Google  
+
+---
+
+## 📘 Penutup
+
+_Saya berharap isi dalam repository ini dapat menjadi referensi yang bermanfaat bagi siapa pun yang membutuhkannya._
+
+---
