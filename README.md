@@ -35,18 +35,18 @@ Aplikasi ini dibuat sebagai project pembelajaran untuk memahami **Jetpack Compos
 ---
 
 ## 📦 Struktur Project
-pnm.tigade.dessert/
-│
-├── data/
-│   ├── Datasource.kt          # Data sumber dessert
-│   └── DessertUiState.kt      # State UI aplikasi
-│
-├── ui/
-│   ├── DessertViewModel.kt    # ViewModel untuk state management
-│   └── theme/                 # Tema aplikasi (warna, typography)
-│
-└── MainActivity.kt            # Entry point aplikasi
-
+• project
+  • data
+    • Datasource.kt
+    • DessertUiState.kt
+  • ui
+    • DessertViewModel.kt
+    • theme
+      • Color.kt
+      • Type.kt
+      • Theme.kt
+  • MainActivity.kt
+  
 ---
 
 ## 🎮 Cara Main
