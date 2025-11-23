@@ -35,17 +35,17 @@ Aplikasi ini dibuat sebagai project pembelajaran untuk memahami **Jetpack Compos
 ---
 
 ## 📦 Struktur Project
-• project
-  • data
-    • Datasource.kt
-    • DessertUiState.kt
-  • ui
-    • DessertViewModel.kt
-    • theme
-      • Color.kt
-      • Type.kt
-      • Theme.kt
-  • MainActivity.kt
+- **• project
+- ** • data
+- **    • Datasource.kt
+- **    • DessertUiState.kt
+- **  • ui
+- **    • DessertViewModel.kt
+- **    • theme
+- **      • Color.kt
+- **      • Type.kt
+- **      • Theme.kt
+- **  • MainActivity.kt
   
 ---
 
